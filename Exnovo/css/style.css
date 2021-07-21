@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://www.exnovostudio.it/media/exnovo-web-agency-welcome.jpg")no-repeat fixed;
+    background-size: 100%;
+    font-family: Roboto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    color: white;
+    margin: 30px;
+    padding: 10px 0;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.img-title {
+    height: 30px;
+}
+
+
+li {
+    display: inline;
+    margin-left: 60px;
+    font-weight: 900;
+}
+
+.contacti {
+    text-decoration: none;
+    color: white;
+    margin-left: 650px;
+    background-color: #2979ba;
+    padding: 15px 30px;
+    border-radius: 7%;
+    transition: .4s;
+}
+
+.contacti:hover {
+    background-color: #0056b3;
+}
+
+/* middle */
+
+.middle {
+    margin-top: 500px;
+    margin-left: 350px;
+    color: white;
+}
+
+.h1-middle {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.p-middle {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.barre {
+    width: 60px;
+    height: 4px;
+    background-color: #2979ba;
+    margin-top: 15px;
+}
+
+/* second page */
+
+.second-page {
+    margin-left: -50px;
+    height: 80vh;
+    background-color: #181818;
+    margin-top: 200px;
+    color: white;
+    z-index: -1;
+}
+
+.h1-second {
+    transform: translateY(100%);
+    margin-left: 350px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.p-second {
+    color: #b7b7b7;
+    font-size: 25px;
+    transform: translateY(100%);
+    margin-left: 350px;
+}
+
+.p2-second {
+    color: #b7b7b7;
+    font-size: 25px;
+    transform: translateY(250%);
+    margin-left: 350px;
+}
+
+.paragraphe-droite {
+    color: #b7b7b7;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+
+.p-1 {
+    font-size: 25px;
+}
+
+.p-2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.p-3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.exnovo {
+    text-decoration: none;
+    color: #4ac2f1;
+    font-weight: 900;
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+.gray {
+    color: #dedede;
+    font-weight: bold;
+}
+
+/* definiamo */
+
+.definiamo {
+    margin-left: 400px;
+    background-color: #181818;
+    height: 170vh;
+    margin-top: 150px;
+}
+
+.h1-defi {
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    transform: translateY(100%);
+}
+
+.p-defi {
+    color: #b7b7b7;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.lavoriamo {
+    text-decoration: none;
+    color: #4ac2f1;
+}
+
+.white-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* register */
+
+.register {
+    margin-top: 150px;
+    width: 1116px;
+    height: 594px;
+    background-color: #2979ba;
+    margin-left: -100px;
+    z-index: -1;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    outline-style: none;
+    border-radius: 3px;
+    border: none;
+    transform: translateY(500%);
+    margin: 15px;
+}
+
+.champ {
+    margin-left: 50px;
+}
+
+.button {
+    background-color: #4ac2f1;
+    cursor: pointer;
+}
+
+.h1-register {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    transform: translateY(100%);
+    margin-left: 50px;
+}
+
+.p-register {
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    transform: translateY(200%);
+    margin-left: 50px;
+}
+
+.h1-finish {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+
+.p-finish {
+    color: #b7b7b7;
+    font-size: 20px;
+    margin-left: -100px;
+}
+
+.span-finish {
+    text-decoration: underline #b7b7b7;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #181818;
+    color: #b7b7b7;
+    height: 8vh;
+    border-top: solid 2px #b7b7b7;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    cursor: none;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    transition: .2s;
+}
+.cursor::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    background: crimson;
+    border-radius: 50%;
+}
+
+/* FINISHED */
